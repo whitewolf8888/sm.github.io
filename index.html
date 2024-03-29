@@ -1,107 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="container">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li>
-                    <a href="#services">Services</a>
-                    <!-- Sub-navigation for Services -->
-                    <ul>
-                        <li><a href="#service1">Service 1</a></li>
-                        <li><a href="#service2">Service 2</a></li>
-                        <li><a href="#service3">Service 3</a></li>
-                        <li><a href="#service4">Service 4</a></li>
-                    </ul>
-                </li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <section class="banner">
-      <div class="overlay"></div>
-      <div class="banner-content">
-          <h2>Welcome to my profile</h2>
-          <h3>15 posts
-            411 followers
-            146 following</h3>
-          <p>Eccedentesiast 🤍
-            कृष्णा सदा सहायते 💮
-            धर्मो रक्षति रक्षितः❤️
-            हिंदू 🚩</p>
-          <button>Learn More</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>somveer yadav</title>
+    <link rel="stylesheet" href="design/design.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar__lists">
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">Home</a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">About</a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">Projects</a>
+        </li>
+        <li class="navbar__list">
+          <a href="#" class="navbar__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="banner">
+      <div class="banner__left">
+        <img
+          src="design/images/WhatsApp_Image_2024-01-04_at_17.10.09_fe1695fa-removebg-preview.png"
+          alt="profile picture"
+          class="banner__profile"
+        />
       </div>
-  </section>
+      <div class="banner__right">
+        <div class="banner__content">
+          <h3 class="banner__title banner__title--l">LOOKING FOR A WEB DEVELOPER?</h3>
+          <h3 class="banner__title banner__title--m">
+          i'm a web developer & programer living in gurugram,india.I
+            make web applications.
+          </h3>
+          <p class="banner__description">
+             in a sea of ordinary, make sure your website is set apart from the competition."
+          </p>
 
-  <div class="card-container">
-    <!-- First Card -->
-    <div class="card">
-        <img src="Screenshot 2024-03-12 112637.png" alt="Image">
-        <div class="card-content">
-            <h3 class="card-title">February 19</h3>
-            <p class="card-description">58 likes</p>
-            <button class="btn-read-more">Read More</button>
+          <a href="#" class="link">Read More...</a>
         </div>
-    </div>
-    <!-- Second Card -->
-    <div class="card">
-        <img src="Screenshot 2024-03-12 112916.png" alt="Image">
-        <div class="card-content">
-            <h3 class="card-title">May 16, 2023</h3>
-            <p class="card-description">108 likes</p>
-            <button class="btn-read-more">Read More</button>
-        </div>
-    </div>
-    <!-- Third Card -->
-    <div class="card">
-        <img src="Screenshot_12-3-2024_112415_www.instagram.com.jpeg" alt="Image">
-        <div class="card-content">
-            <h3 class="card-title">February 3</h3>
-            <p class="card-description">91 likes</p>
-            <button class="btn-read-more">Read More</button>
-        </div>
-    </div>
-</div>
+      </div>
+    </header>
 
-<section class="form-section">
-  <form class="contact-form">
-    <h3>Contact Us</h3>
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-    </div>
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-    <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Submit">
-    </div>
-</form>
-</section>
+    <section class="section flex">
+      <h2 class="title">WHAT I <span class="title__end">DO</span></h2>
+      <div class="card card--services1">
+        <h5 class="card__title card__title--s">Web Development</h5>
+        <h3 class="card__title card__title--l">Web Design & Logo</h3>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+          veniam corporis velit debitis dolor...
+        </p>
+        <a class="card__btn">Read More...</a>
+      </div>
+      <div class="card card--services2">
+        <h5 class="card__title card__title--s">Web Development</h5>
+        <h3 class="card__title card__title--l">Web Design & Logo</h3>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+          veniam corporis velit debitis dolor...
+        </p>
+        <a class="card__btn">Read More...</a>
+      </div>
+      <div class="card card--services3">
+        <h5 class="card__title card__title--s">Web Development</h5>
+        <h3 class="card__title card__title--l">Web Design & Logo</h3>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+          veniam corporis velit debitis dolor...
+        </p>
+        <a class="card__btn">Read More...</a>
+      </div>
+      <div class="card card--services4">
+        <h5 class="card__title card__title--s">Web Development</h5>
+        <h3 class="card__title card__title--l">Web Design & Logo</h3>
+        <p class="card__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+          veniam corporis velit debitis dolor...
+        </p>
+        <a class="card__btn">Read More...</a>
+      </div>
+    </section>
 
-<footer class="footer">
-  <p>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-  </p>
-  <p>&copy; 2024 School Name. All rights reserved. | Designed by <a href="https://example.com" target="_blank">somveer yadav</a></p>
-</footer>
-</body>
+    <section class="section flex">
+      <h2 class="title">MY SKILLS</h2>
+      <div class="progress-bar-container">
+        <h2>
+          <label for="HTML">HTML</label>
+        </h2>
+        <div class="progress-bar html">
+          <progress id="html" min="0" max="100" value="92"></progress>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <h2>
+          <label for="CSS">CSS</label>
+        </h2>
+        <div class="progress-bar css">
+          <progress id="css" min="0" max="100" value="87"></progress>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <h2>
+          <label for="JS">JavaScript</label>
+        </h2>
+        <div class="progress-bar js">
+          <progress id="js" min="0" max="100" value="73"></progress>
+        </div>
+      </div>
+      <div class="progress-bar-container">
+        <h2>
+          <label for="PYTHON">PYTHON</label>
+        </h2>
+        <div class="progress-bar html">
+          <progress id="python" min="0" max="100" value="92"></progress>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <h2>
+          <label for="C++">C++</label>
+        </h2>
+        <div class="progress-bar css">
+          <progress id="C++" min="0" max="100" value="87"></progress>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <h2>
+          <label for="C">C</label>
+        </h2>
+        <div class="progress-bar js">
+          <progress id="c" min="0" max="100" value="73"></progress>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <h2>
+          <label for="RUBY">RUBY</label>
+        </h2>
+        <div class="progress-bar html">
+          <progress id="rube" min="0" max="100" value="92"></progress>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <h2>
+          <label for="PHP">PHP</label>
+        </h2>
+        <div class="progress-bar css">
+          <progress id="css" min="0" max="100" value="87"></progress>
+        </div>
+      </div>
+    </section>
+
+    <section class="section flex section-portfolio">
+      <h2 class="title">MY <span class="title__end">PROJECTS</span></h2>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">A travel website</h2>
+          <p class="portfolio__desc">
+         ...
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">A startup website</h2>
+          <p class="portfolio__desc">
+           ...
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Database management system</h2>
+          <p class="portfolio__desc">
+            ...
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Social Media Network</h2>
+          <p class="portfolio__desc">
+            ...
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Real-time Chat Application</h2>
+          <p class="portfolio__desc">
+            ...
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Recipe Sharing Website</h2>
+          <p class="portfolio__desc">
+            Allow users to share and browse recipes, with features like search, categorization, and user ratings....
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Personal Portfolio Website</h2>
+          <p class="portfolio__desc">
+           ...
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+      <div class="portfolio">
+        <div class="portfolio__content">
+          <h2 class="portfolio__title">Blog</h2>
+          <p class="portfolio__desc">
+            a platform where users can create, read, update, and delete blog posts....
+          </p>
+          <a href="#" class="portfolio__link">Read More...</a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
